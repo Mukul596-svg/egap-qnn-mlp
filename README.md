@@ -80,7 +80,7 @@ Raw data is fetched via the `fetching_data.py` script, which:
 
 To generate the master CSV (`raw_set.csv` or `raw_data.csv`), run:
 ```bash
-python fetching_data.py --n_entries 15000 --csv_file raw_data.csv --batch_size 150 \
+python fetching_data.py --n_entries 1000 --csv_file raw_data.csv --batch_size 100 \
     --max_concurrent 10 --max_processes 8 --buffer_size 1000
 ```
 
@@ -89,7 +89,7 @@ Before splitting, ensure the `element_properties_cache/` directory (created by j
 Once you have `raw_data.csv`, split it into train/validation/test using:
 ```bash
 python split_data.py raw_data.csv train.csv val.csv test.csv \
-    --test_frac 0.2 --val_frac 0.2 --n_clusters 5
+    --test_frac 0.15 --val_frac 0.15 --n_clusters 3
 ```
 
 ## Usage
