@@ -1,0 +1,25 @@
+# Numeric & data handling
+numpy>=1.26.0,<2.2.0
+pandas>=1.5.0
+
+# Machine learning & preprocessing
+scikit-learn>=1.2.2
+modAL>=0.7.0
+
+# Deep learning
+torch>=1.12.0
+
+# Quantum computing
+pennylane>=0.40.0
+
+# Materials data sources & processing
+aflow>=1.0.0
+pymatgen>=2023.0.0
+mendeleev>=0.12.0
+
+# Async & caching
+aiohttp>=3.8.0
+joblib>=1.2.0
+
+# Visualization
+matplotlib>=3.5.0
