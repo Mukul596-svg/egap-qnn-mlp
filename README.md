@@ -33,7 +33,6 @@ All models use the same set of features derived from crystal structures:
 ├── test.csv                   # Test split
 ├── mlp.py                     # Multilayer Perceptron implementation
 ├── hybrid_qnn.py              # Hybrid quantum‑classical QNN implementation
-├── requirements.txt           # Python dependencies
 └── README.md                  # This file
 ```
 
