@@ -534,8 +534,8 @@ if __name__ == "__main__":
     fetch_properties_split(
         n_entries=15000,
         csv_file="raw_data.csv",
-        batch_size=150,        # Increased for better throughput
-        max_concurrent=10,     # Match to typical i7 core count
-        max_processes=8,       # Balance between process overhead and parallelism
-        buffer_size=1000       # Larger buffer for better I/O efficiency
+        batch_size=150,        
+        max_concurrent=10,     
+        max_processes=8,      
+        buffer_size=1000       
     )
